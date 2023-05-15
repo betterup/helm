@@ -162,3 +162,6 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.14.1 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
+
+// Logrus Patch
+replace github.com/sirupsen/logrus => github.com/sirupsen/logrus v1.9.1-0.20230515103106-6acd90375868
